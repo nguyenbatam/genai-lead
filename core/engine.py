@@ -704,6 +704,7 @@ class Engine:
         prompt = self.store.prompt_by_id(agent.prompt_id)
         head = [prompt.template] if prompt is not None and prompt.template else []
         safe = [redact(message) for message in (*head, *messages)]
+        pending_hint = run.next_model_hint
         model_id, hint_reason = self._hint_model_id(principal, agent, profile, run)
         try:
             output, card, spent = self.gateway.complete(
@@ -719,11 +720,9 @@ class Engine:
             run.hint_calls += 1
             run.hint_cost += spent
             self._event(run, "model_hint", tool=card.id, hits=[hint_reason])
-        elif run.next_model_hint and hint_reason not in {"default", "empty_allow"}:
+        elif pending_hint and hint_reason not in {"default", "empty_allow"}:
             self._event(run, "model_hint", hits=[hint_reason])
-        run.next_model_hint = ""
-        if output.model_hint:
-            run.next_model_hint = output.model_hint
+        run.next_model_hint = output.model_hint or ""
         return output, spent
 
     def _hint_model_id(
@@ -833,7 +832,12 @@ class Engine:
 
         def invoke(member: Member) -> tuple[ModelOutput, float] | str:
             return self._invoke(
-                principal, agent, member.model_profile, snapshot, member.allowed_tools
+                principal,
+                agent,
+                member.model_profile,
+                run,
+                snapshot,
+                member.allowed_tools,
             )
 
         with ThreadPoolExecutor(max_workers=len(missing)) as pool:
