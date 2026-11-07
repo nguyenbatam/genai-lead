@@ -1,0 +1,11 @@
+{
+  "name": "desk",
+  "mode": "agent",
+  "model_profile": "cheap",
+  "allowed_tools": ["create_record"],
+  "prompt": {
+    "name": "desk-triage",
+    "template": "Open a local record when the user asks. Use create_record."
+  },
+  "sample_query": "mở phiếu"
+}

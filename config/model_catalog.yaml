@@ -1,0 +1,125 @@
+# Wire model ids for live bench. No secrets. provider must match llm_credentials.yaml.
+# Profiles: cheap (fast/free), reason (stronger), embed (route marker; retrieval uses fastembed).
+
+models:
+  - id: groq-cheap
+    provider: groq
+    name: llama-3.1-8b-instant
+    profile: cheap
+    capabilities: [cheap]
+    input_price: 0.05
+    output_price: 0.08
+    pricing_version: "2026-11"
+    tier_affinity: free_only
+    tier_order: free_paid_local
+    live: true
+
+  - id: cerebras-cheap
+    provider: cerebras
+    name: llama3.1-8b
+    profile: cheap
+    capabilities: [cheap]
+    input_price: 0.10
+    output_price: 0.10
+    pricing_version: "2026-11"
+    tier_affinity: free_only
+    tier_order: free_paid_local
+    live: true
+
+  - id: mistral-cheap
+    provider: mistral
+    name: mistral-small-latest
+    profile: cheap
+    capabilities: [cheap]
+    input_price: 0.10
+    output_price: 0.30
+    pricing_version: "2026-11"
+    tier_affinity: free_only
+    tier_order: free_paid_local
+    live: true
+
+  - id: openrouter-cheap
+    provider: openrouter
+    name: meta-llama/llama-3.2-3b-instruct:free
+    profile: cheap
+    capabilities: [cheap]
+    input_price: 0.0
+    output_price: 0.0
+    pricing_version: "2026-11"
+    tier_affinity: free_only
+    tier_order: free_paid_local
+    live: true
+
+  - id: openai-reason
+    provider: openai
+    name: gpt-4o-mini
+    profile: reason
+    capabilities: [reason, cheap]
+    input_price: 0.15
+    output_price: 0.60
+    pricing_version: "2026-11"
+    tier_affinity: any
+    tier_order: free_paid_local
+    live: true
+
+  - id: gemini-reason
+    provider: gemini
+    name: gemini-2.0-flash
+    profile: reason
+    capabilities: [reason, cheap]
+    input_price: 0.10
+    output_price: 0.40
+    pricing_version: "2026-11"
+    tier_affinity: free_only
+    tier_order: free_paid_local
+    live: true
+
+  - id: openrouter-reason
+    provider: openrouter
+    name: openai/gpt-4o-mini
+    profile: reason
+    capabilities: [reason, cheap]
+    input_price: 0.15
+    output_price: 0.60
+    pricing_version: "2026-11"
+    tier_affinity: any
+    tier_order: free_paid_local
+    live: true
+
+  # Native Anthropic Messages API is not HttpModel-compatible; bench records skipped.
+  - id: anthropic-skipped
+    provider: anthropic
+    name: claude-3-5-haiku-latest
+    profile: reason
+    capabilities: [reason]
+    input_price: 0.80
+    output_price: 4.00
+    pricing_version: "2026-11"
+    tier_affinity: free_only
+    live: false
+    skip_reason: anthropic_native_not_openai_compatible
+
+  - id: portkey-skipped
+    provider: portkey
+    name: gpt-4o-mini
+    profile: reason
+    capabilities: [reason]
+    input_price: 0.15
+    output_price: 0.60
+    pricing_version: "2026-11"
+    tier_affinity: paid_only
+    live: false
+    skip_reason: portkey_needs_proxy_config
+
+  # Route marker only. Retrieval embeds via EMBEDDING_BACKEND=fastembed, not chat.
+  - id: embed-local
+    provider: selfhost
+    name: bge-small-en-v1.5
+    profile: embed
+    capabilities: [embed]
+    input_price: 0.0
+    output_price: 0.0
+    pricing_version: "2026-11"
+    tier_affinity: any
+    live: false
+    skip_reason: embed_via_fastembed_not_chat

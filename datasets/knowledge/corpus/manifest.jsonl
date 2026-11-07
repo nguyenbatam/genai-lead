@@ -1,0 +1,9 @@
+{"document_id": "finance-approval", "path": "finance_approval.md", "acl": ["finance"], "version": 1}
+{"document_id": "finance-travel", "path": "finance_travel.md", "acl": ["finance"], "version": 1}
+{"document_id": "finance-vendor", "path": "finance_vendor.md", "acl": ["finance"], "version": 1}
+{"document_id": "hr-leave", "path": "hr_leave.md", "acl": ["hr"], "version": 1}
+{"document_id": "hr-payroll", "path": "hr_payroll.md", "acl": ["hr"], "version": 1}
+{"document_id": "it-access", "path": "it_access.md", "acl": ["it"], "version": 1}
+{"document_id": "it-incident", "path": "it_incident.md", "acl": ["it"], "version": 1}
+{"document_id": "ops-oncall", "path": "ops_oncall.md", "acl": ["ops"], "version": 1}
+{"document_id": "shared-glossary", "path": "shared_glossary.md", "acl": ["*"], "version": 1}

@@ -1,0 +1,21 @@
+[project]
+name = "genai-lead"
+version = "0.1.0"
+description = "Interview prototype: an enterprise knowledge assistant for a GenAI Lead seat."
+requires-python = ">=3.13"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+extend-exclude = [".claude", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "integration: needs Postgres and Redis from Compose",
+    "live: calls real LLM providers or downloads embedding models",
+]

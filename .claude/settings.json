@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python:*)", "Bash(.venv/bin/ruff:*)", "Bash(.venv/bin/pytest:*)",
+      "Bash(python:*)", "Bash(python3:*)", "Bash(pytest:*)", "Bash(ruff:*)", "Bash(make:*)",
+      "Bash(git add:*)", "Bash(git commit:*)", "Bash(git status:*)", "Bash(git diff:*)",
+      "Bash(git log:*)", "Bash(git branch:*)",
+      "Bash(ls:*)", "Bash(mkdir:*)"
+    ],
+    "deny": [
+      "Read(./.env)", "Read(./.env.local)", "Read(./.env.*.local)", "Bash(cat .env)", "Bash(cat ./.env)",
+      "Bash(env)", "Bash(printenv:*)",
+      "Bash(rm -rf *)", "Bash(rm -fr *)", "Bash(sudo *)",
+      "Bash(git push --force*)", "Bash(git push *--force*)", "Bash(git reset --hard*)",
+      "Read(~/.ssh/**)", "Read(~/.aws/**)", "Read(~/.config/gh/**)", "Read(~/.git-credentials)",
+      "Edit(~/.zshrc)", "Edit(~/.ssh/**)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/ruff-format.sh" }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/stop-pytest.sh" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{"id": "k01", "query": "ai phê duyệt ngân sách thiết bị A", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "CFO phải phê duyệt", "expect_retrieval_substr": "CFO"}
+{"id": "k02", "query": "thiết bị loại B ai duyệt", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "Manager", "expect_retrieval_substr": "Manager"}
+{"id": "k03", "query": "HR có xem được phê duyệt ngân sách không", "groups": ["hr"], "expect_outcome": "no_answer", "expect_cite_substr": "", "expect_retrieval_substr": ""}
+{"id": "k04", "query": "cần bao nhiêu báo giá cho loại A", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "hai nhà cung cấp", "expect_retrieval_substr": "báo giá"}
+{"id": "k05", "query": "đơn trên 200 triệu cần ai ký thêm", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "Board", "expect_retrieval_substr": "200 triệu"}
+{"id": "k06", "query": "Finance giữ bản ghi phê duyệt bao lâu", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "7 năm", "expect_retrieval_substr": "7 năm"}
+{"id": "k07", "query": "công tác nội địa dưới 3 ngày ai duyệt", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "manager", "expect_retrieval_substr": "Nội địa dưới 3 ngày"}
+{"id": "k08", "query": "bay quốc tế hạng business khi nào được", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "8 giờ", "expect_retrieval_substr": "business"}
+{"id": "k09", "query": "nộp hóa đơn công tác muộn bao nhiêu ngày bị từ chối", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "10 ngày", "expect_retrieval_substr": "10 ngày"}
+{"id": "k10", "query": "trần khách sạn nội địa là bao nhiêu", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "1.8 triệu", "expect_retrieval_substr": "khách sạn"}
+{"id": "k11", "query": "có được thanh toán vendor bằng tài khoản cá nhân không", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "không nhận tài khoản cá nhân", "expect_retrieval_substr": "tài khoản"}
+{"id": "k12", "query": "vendor nước ngoài có được onboard không", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "cấm", "expect_retrieval_substr": "nước ngoài"}
+{"id": "k13", "query": "điểm vendor dưới 60 thì sao", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "tạm ngưng PO", "expect_retrieval_substr": "60"}
+{"id": "k14", "query": "ai ký hợp đồng khung trước PO", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "Legal", "expect_retrieval_substr": "hợp đồng khung"}
+{"id": "k15", "query": "nhân viên năm đầu được bao nhiêu ngày phép", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "12 ngày", "expect_retrieval_substr": "12 ngày"}
+{"id": "k16", "query": "phép tối đa bao nhiêu ngày khi thâm niên cao", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "18 ngày", "expect_retrieval_substr": "18 ngày"}
+{"id": "k17", "query": "nghỉ phép 4 ngày liên tiếp cần ai duyệt", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "HR", "expect_retrieval_substr": "3 ngày"}
+{"id": "k18", "query": "nghỉ không lương 20 ngày cần ai", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "CEO", "expect_retrieval_substr": "CEO"}
+{"id": "k19", "query": "nghỉ bệnh 2 ngày có cần giấy bác sĩ không", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "giấy bác sĩ", "expect_retrieval_substr": "bác sĩ"}
+{"id": "k20", "query": "lương trả vào ngày nào", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "ngày 28", "expect_retrieval_substr": "28"}
+{"id": "k21", "query": "nhân viên dưới meets có thưởng quý không", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "không nhận thưởng quý", "expect_retrieval_substr": "meets"}
+{"id": "k22", "query": "ứng lương tối đa bao nhiêu phần trăm", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "30%", "expect_retrieval_substr": "30%"}
+{"id": "k23", "query": "Finance xem được bảng lương chi tiết không", "groups": ["finance"], "expect_outcome": "no_answer", "expect_cite_substr": "", "expect_retrieval_substr": ""}
+{"id": "k24", "query": "cấp quyền production cần gì", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "manager approve", "expect_retrieval_substr": "production"}
+{"id": "k25", "query": "tài khoản shared có được dùng không", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "cấm", "expect_retrieval_substr": "shared"}
+{"id": "k26", "query": "exception tắt MFA hết hạn sau bao lâu", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "7 ngày", "expect_retrieval_substr": "MFA"}
+{"id": "k27", "query": "IT thu hồi quyền khi nào khi nghỉ việc", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "ngày làm việc cuối", "expect_retrieval_substr": "Offboarding"}
+{"id": "k28", "query": "HR hỏi quy trình MFA", "groups": ["hr"], "expect_outcome": "no_answer", "expect_cite_substr": "", "expect_retrieval_substr": ""}
+{"id": "k29", "query": "P1 là gì trong sự cố", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "rò rỉ dữ liệu", "expect_retrieval_substr": "P1"}
+{"id": "k30", "query": "P1 phải gọi on-call trong bao lâu", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "10 phút", "expect_retrieval_substr": "10 phút"}
+{"id": "k31", "query": "postmortem P1 nộp trong bao nhiêu ngày", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "5 ngày", "expect_retrieval_substr": "postmortem"}
+{"id": "k32", "query": "có được xóa log gốc khi P1 không", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "Không xóa log gốc", "expect_retrieval_substr": "log gốc"}
+{"id": "k33", "query": "on-call phản hồi Pager trong bao lâu", "groups": ["ops"], "expect_outcome": "completed", "expect_cite_substr": "15 phút", "expect_retrieval_substr": "15 phút"}
+{"id": "k34", "query": "ca on-call bắt đầu lúc nào", "groups": ["ops"], "expect_outcome": "completed", "expect_cite_substr": "thứ Hai 09:00", "expect_retrieval_substr": "thứ Hai"}
+{"id": "k35", "query": "bị đánh thức sau 23:00 được nghỉ bù thế nào", "groups": ["ops"], "expect_outcome": "completed", "expect_cite_substr": "nửa ngày", "expect_retrieval_substr": "23:00"}
+{"id": "k36", "query": "Finance đọc lịch on-call được không", "groups": ["finance"], "expect_outcome": "no_answer", "expect_cite_substr": "", "expect_retrieval_substr": ""}
+{"id": "k37", "query": "PO nghĩa là gì", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "purchase order", "expect_retrieval_substr": "PO"}
+{"id": "k38", "query": "ACL * nghĩa là gì", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "mọi nhóm", "expect_retrieval_substr": "ACL"}
+{"id": "k39", "query": "Desk dùng để làm gì", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "approval", "expect_retrieval_substr": "Desk"}
+{"id": "k40", "query": "CFO viết tắt của gì", "groups": ["ops"], "expect_outcome": "completed", "expect_cite_substr": "Chief Financial Officer", "expect_retrieval_substr": "CFO"}
+{"id": "k41", "query": "công tác quốc tế ai duyệt", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "CFO duyệt", "expect_retrieval_substr": "Quốc tế"}
+{"id": "k42", "query": "vendor liên quan người nội bộ phải làm gì", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "conflict of interest", "expect_retrieval_substr": "conflict"}
+{"id": "k43", "query": "thưởng năm do ai quyết", "groups": ["hr"], "expect_outcome": "completed", "expect_cite_substr": "Board", "expect_retrieval_substr": "Thưởng năm"}
+{"id": "k44", "query": "P3 là mức sự cố nào", "groups": ["it"], "expect_outcome": "completed", "expect_cite_substr": "chưa ảnh hưởng người dùng", "expect_retrieval_substr": "P3"}
+{"id": "k45", "query": "bỏ handoff on-call bị gì", "groups": ["ops"], "expect_outcome": "completed", "expect_cite_substr": "SLA breach", "expect_retrieval_substr": "handoff"}
+{"id": "k46", "query": "mức thiết bị loại A bắt đầu từ giá nào", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "10 triệu", "expect_retrieval_substr": "10 triệu"}
+{"id": "k47", "query": "IT hỏi chính sách ứng lương", "groups": ["it"], "expect_outcome": "no_answer", "expect_cite_substr": "", "expect_retrieval_substr": ""}
+{"id": "k48", "query": "Ops hỏi quy trình onboard vendor", "groups": ["ops"], "expect_outcome": "no_answer", "expect_cite_substr": "", "expect_retrieval_substr": ""}
+{"id": "k49", "query": "Legal có trong quy trình vendor không", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "Legal", "expect_retrieval_substr": "Legal"}
+{"id": "k50", "query": "khi nào HR xác nhận lý do bất khả kháng cho hoàn ứng", "groups": ["finance"], "expect_outcome": "completed", "expect_cite_substr": "HR xác nhận", "expect_retrieval_substr": "bất khả kháng"}

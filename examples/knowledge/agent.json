@@ -1,0 +1,19 @@
+{
+  "name": "knowledge",
+  "mode": "workflow",
+  "model_profile": "cheap",
+  "allowed_tools": ["search_knowledge_base"],
+  "steps": ["retrieve", "answer"],
+  "prompt": {
+    "name": "knowledge-answer",
+    "template": "Answer only from retrieved passages. Cite parent ids."
+  },
+  "document": {
+    "document_id": "policy",
+    "version": 1,
+    "text": "CFO phải phê duyệt ngân sách thiết bị A.",
+    "acl": ["finance"],
+    "idempotency_key": "knowledge-policy-1"
+  },
+  "sample_query": "phê duyệt ngân sách"
+}

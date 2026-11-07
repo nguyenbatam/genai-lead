@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+config/llm_credentials.yaml
+config/llm_credentials.yml
+config/llm_credentials.json
+*.pyc
+.DS_Store
+reports/
+examples/**/.local_state.json

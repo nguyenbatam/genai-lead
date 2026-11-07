@@ -1,0 +1,11 @@
+{
+  "name": "my-agent",
+  "mode": "agent",
+  "model_profile": "cheap",
+  "allowed_tools": [],
+  "prompt": {
+    "name": "my-agent-prompt",
+    "template": "Be concise. Do not invent tools you were not granted."
+  },
+  "sample_query": "ping"
+}

@@ -1,0 +1,200 @@
+{"document_id": "fin-approve-01", "acl": ["finance"], "topic": "phê duyệt ngân sách thiết bị nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "fin-travel-01", "acl": ["finance"], "topic": "công tác phí và khách sạn nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "fin-vendor-01", "acl": ["finance"], "topic": "onboarding nhà cung cấp nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "fin-invoice-01", "acl": ["finance"], "topic": "chu kỳ thanh toán hóa đơn nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "fin-budget-01", "acl": ["finance"], "topic": "trần ngân sách quý nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "fin-card-01", "acl": ["finance"], "topic": "hạn mức thẻ công ty nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "fin-audit-01", "acl": ["finance"], "topic": "lưu trữ chứng từ kiểm toán nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "fin-fx-01", "acl": ["finance"], "topic": "tỷ giá thanh toán ngoại tệ nhóm 1", "versions": 5, "unit": "triệu VND", "base": 6}
+{"document_id": "hr-leave-01", "acl": ["hr"], "topic": "nghỉ phép năm nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "hr-sick-01", "acl": ["hr"], "topic": "nghỉ bệnh và giấy bác sĩ nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "hr-pay-01", "acl": ["hr"], "topic": "ngày trả lương nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "hr-bonus-01", "acl": ["hr"], "topic": "thưởng hiệu suất quý nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "hr-onboard-01", "acl": ["hr"], "topic": "onboarding nhân viên mới nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "hr-offboard-01", "acl": ["hr"], "topic": "quy trình nghỉ việc nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "hr-ot-01", "acl": ["hr"], "topic": "làm thêm giờ nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "hr-remote-01", "acl": ["hr"], "topic": "làm việc từ xa nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-access-01", "acl": ["it"], "topic": "cấp quyền production nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-mfa-01", "acl": ["it"], "topic": "bắt buộc MFA nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-vpn-01", "acl": ["it"], "topic": "truy cập VPN nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-laptop-01", "acl": ["it"], "topic": "cấp phát laptop nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-incident-01", "acl": ["it"], "topic": "phân loại sự cố P1 P2 P3 nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-backup-01", "acl": ["it"], "topic": "sao lưu dữ liệu nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-secret-01", "acl": ["it"], "topic": "xoay vòng secret nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "it-patch-01", "acl": ["it"], "topic": "vá bảo mật máy chủ nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "ops-oncall-01", "acl": ["ops"], "topic": "lịch on-call nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "ops-sla-01", "acl": ["ops"], "topic": "SLA phản hồi Pager nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "ops-change-01", "acl": ["ops"], "topic": "cửa sổ change production nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "ops-runbook-01", "acl": ["ops"], "topic": "runbook khôi phục dịch vụ nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "ops-capacity-01", "acl": ["ops"], "topic": "ngưỡng capacity alert nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "ops-deploy-01", "acl": ["ops"], "topic": "tần suất deploy nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "legal-nda-01", "acl": ["legal"], "topic": "thời hạn NDA nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "legal-contract-01", "acl": ["legal"], "topic": "duyệt hợp đồng khung nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "legal-privacy-01", "acl": ["legal"], "topic": "lưu trữ dữ liệu cá nhân nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "legal-retain-01", "acl": ["legal"], "topic": "thời gian giữ hồ sơ nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "sec-phish-01", "acl": ["security"], "topic": "báo cáo phishing nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "sec-device-01", "acl": ["security"], "topic": "thiết bị mang về nhà nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "sec-usb-01", "acl": ["security"], "topic": "cấm USB không mã hóa nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "sec-class-01", "acl": ["security"], "topic": "phân loại tài liệu mật nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "shared-glossary-01", "acl": ["*"], "topic": "thuật ngữ nội bộ ACL nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "shared-desk-01", "acl": ["*"], "topic": "desk ticket approval nhóm 1", "versions": 5, "unit": "ngày", "base": 6}
+{"document_id": "fin-approve-02", "acl": ["finance"], "topic": "phê duyệt ngân sách thiết bị nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "fin-travel-02", "acl": ["finance"], "topic": "công tác phí và khách sạn nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "fin-vendor-02", "acl": ["finance"], "topic": "onboarding nhà cung cấp nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "fin-invoice-02", "acl": ["finance"], "topic": "chu kỳ thanh toán hóa đơn nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "fin-budget-02", "acl": ["finance"], "topic": "trần ngân sách quý nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "fin-card-02", "acl": ["finance"], "topic": "hạn mức thẻ công ty nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "fin-audit-02", "acl": ["finance"], "topic": "lưu trữ chứng từ kiểm toán nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "fin-fx-02", "acl": ["finance"], "topic": "tỷ giá thanh toán ngoại tệ nhóm 2", "versions": 5, "unit": "triệu VND", "base": 7}
+{"document_id": "hr-leave-02", "acl": ["hr"], "topic": "nghỉ phép năm nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "hr-sick-02", "acl": ["hr"], "topic": "nghỉ bệnh và giấy bác sĩ nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "hr-pay-02", "acl": ["hr"], "topic": "ngày trả lương nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "hr-bonus-02", "acl": ["hr"], "topic": "thưởng hiệu suất quý nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "hr-onboard-02", "acl": ["hr"], "topic": "onboarding nhân viên mới nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "hr-offboard-02", "acl": ["hr"], "topic": "quy trình nghỉ việc nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "hr-ot-02", "acl": ["hr"], "topic": "làm thêm giờ nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "hr-remote-02", "acl": ["hr"], "topic": "làm việc từ xa nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-access-02", "acl": ["it"], "topic": "cấp quyền production nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-mfa-02", "acl": ["it"], "topic": "bắt buộc MFA nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-vpn-02", "acl": ["it"], "topic": "truy cập VPN nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-laptop-02", "acl": ["it"], "topic": "cấp phát laptop nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-incident-02", "acl": ["it"], "topic": "phân loại sự cố P1 P2 P3 nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-backup-02", "acl": ["it"], "topic": "sao lưu dữ liệu nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-secret-02", "acl": ["it"], "topic": "xoay vòng secret nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "it-patch-02", "acl": ["it"], "topic": "vá bảo mật máy chủ nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "ops-oncall-02", "acl": ["ops"], "topic": "lịch on-call nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "ops-sla-02", "acl": ["ops"], "topic": "SLA phản hồi Pager nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "ops-change-02", "acl": ["ops"], "topic": "cửa sổ change production nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "ops-runbook-02", "acl": ["ops"], "topic": "runbook khôi phục dịch vụ nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "ops-capacity-02", "acl": ["ops"], "topic": "ngưỡng capacity alert nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "ops-deploy-02", "acl": ["ops"], "topic": "tần suất deploy nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "legal-nda-02", "acl": ["legal"], "topic": "thời hạn NDA nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "legal-contract-02", "acl": ["legal"], "topic": "duyệt hợp đồng khung nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "legal-privacy-02", "acl": ["legal"], "topic": "lưu trữ dữ liệu cá nhân nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "legal-retain-02", "acl": ["legal"], "topic": "thời gian giữ hồ sơ nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "sec-phish-02", "acl": ["security"], "topic": "báo cáo phishing nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "sec-device-02", "acl": ["security"], "topic": "thiết bị mang về nhà nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "sec-usb-02", "acl": ["security"], "topic": "cấm USB không mã hóa nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "sec-class-02", "acl": ["security"], "topic": "phân loại tài liệu mật nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "shared-glossary-02", "acl": ["*"], "topic": "thuật ngữ nội bộ ACL nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "shared-desk-02", "acl": ["*"], "topic": "desk ticket approval nhóm 2", "versions": 5, "unit": "ngày", "base": 7}
+{"document_id": "fin-approve-03", "acl": ["finance"], "topic": "phê duyệt ngân sách thiết bị nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "fin-travel-03", "acl": ["finance"], "topic": "công tác phí và khách sạn nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "fin-vendor-03", "acl": ["finance"], "topic": "onboarding nhà cung cấp nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "fin-invoice-03", "acl": ["finance"], "topic": "chu kỳ thanh toán hóa đơn nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "fin-budget-03", "acl": ["finance"], "topic": "trần ngân sách quý nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "fin-card-03", "acl": ["finance"], "topic": "hạn mức thẻ công ty nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "fin-audit-03", "acl": ["finance"], "topic": "lưu trữ chứng từ kiểm toán nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "fin-fx-03", "acl": ["finance"], "topic": "tỷ giá thanh toán ngoại tệ nhóm 3", "versions": 5, "unit": "triệu VND", "base": 8}
+{"document_id": "hr-leave-03", "acl": ["hr"], "topic": "nghỉ phép năm nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "hr-sick-03", "acl": ["hr"], "topic": "nghỉ bệnh và giấy bác sĩ nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "hr-pay-03", "acl": ["hr"], "topic": "ngày trả lương nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "hr-bonus-03", "acl": ["hr"], "topic": "thưởng hiệu suất quý nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "hr-onboard-03", "acl": ["hr"], "topic": "onboarding nhân viên mới nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "hr-offboard-03", "acl": ["hr"], "topic": "quy trình nghỉ việc nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "hr-ot-03", "acl": ["hr"], "topic": "làm thêm giờ nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "hr-remote-03", "acl": ["hr"], "topic": "làm việc từ xa nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-access-03", "acl": ["it"], "topic": "cấp quyền production nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-mfa-03", "acl": ["it"], "topic": "bắt buộc MFA nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-vpn-03", "acl": ["it"], "topic": "truy cập VPN nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-laptop-03", "acl": ["it"], "topic": "cấp phát laptop nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-incident-03", "acl": ["it"], "topic": "phân loại sự cố P1 P2 P3 nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-backup-03", "acl": ["it"], "topic": "sao lưu dữ liệu nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-secret-03", "acl": ["it"], "topic": "xoay vòng secret nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "it-patch-03", "acl": ["it"], "topic": "vá bảo mật máy chủ nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "ops-oncall-03", "acl": ["ops"], "topic": "lịch on-call nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "ops-sla-03", "acl": ["ops"], "topic": "SLA phản hồi Pager nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "ops-change-03", "acl": ["ops"], "topic": "cửa sổ change production nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "ops-runbook-03", "acl": ["ops"], "topic": "runbook khôi phục dịch vụ nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "ops-capacity-03", "acl": ["ops"], "topic": "ngưỡng capacity alert nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "ops-deploy-03", "acl": ["ops"], "topic": "tần suất deploy nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "legal-nda-03", "acl": ["legal"], "topic": "thời hạn NDA nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "legal-contract-03", "acl": ["legal"], "topic": "duyệt hợp đồng khung nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "legal-privacy-03", "acl": ["legal"], "topic": "lưu trữ dữ liệu cá nhân nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "legal-retain-03", "acl": ["legal"], "topic": "thời gian giữ hồ sơ nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "sec-phish-03", "acl": ["security"], "topic": "báo cáo phishing nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "sec-device-03", "acl": ["security"], "topic": "thiết bị mang về nhà nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "sec-usb-03", "acl": ["security"], "topic": "cấm USB không mã hóa nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "sec-class-03", "acl": ["security"], "topic": "phân loại tài liệu mật nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "shared-glossary-03", "acl": ["*"], "topic": "thuật ngữ nội bộ ACL nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "shared-desk-03", "acl": ["*"], "topic": "desk ticket approval nhóm 3", "versions": 5, "unit": "ngày", "base": 8}
+{"document_id": "fin-approve-04", "acl": ["finance"], "topic": "phê duyệt ngân sách thiết bị nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "fin-travel-04", "acl": ["finance"], "topic": "công tác phí và khách sạn nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "fin-vendor-04", "acl": ["finance"], "topic": "onboarding nhà cung cấp nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "fin-invoice-04", "acl": ["finance"], "topic": "chu kỳ thanh toán hóa đơn nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "fin-budget-04", "acl": ["finance"], "topic": "trần ngân sách quý nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "fin-card-04", "acl": ["finance"], "topic": "hạn mức thẻ công ty nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "fin-audit-04", "acl": ["finance"], "topic": "lưu trữ chứng từ kiểm toán nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "fin-fx-04", "acl": ["finance"], "topic": "tỷ giá thanh toán ngoại tệ nhóm 4", "versions": 5, "unit": "triệu VND", "base": 9}
+{"document_id": "hr-leave-04", "acl": ["hr"], "topic": "nghỉ phép năm nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "hr-sick-04", "acl": ["hr"], "topic": "nghỉ bệnh và giấy bác sĩ nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "hr-pay-04", "acl": ["hr"], "topic": "ngày trả lương nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "hr-bonus-04", "acl": ["hr"], "topic": "thưởng hiệu suất quý nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "hr-onboard-04", "acl": ["hr"], "topic": "onboarding nhân viên mới nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "hr-offboard-04", "acl": ["hr"], "topic": "quy trình nghỉ việc nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "hr-ot-04", "acl": ["hr"], "topic": "làm thêm giờ nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "hr-remote-04", "acl": ["hr"], "topic": "làm việc từ xa nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-access-04", "acl": ["it"], "topic": "cấp quyền production nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-mfa-04", "acl": ["it"], "topic": "bắt buộc MFA nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-vpn-04", "acl": ["it"], "topic": "truy cập VPN nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-laptop-04", "acl": ["it"], "topic": "cấp phát laptop nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-incident-04", "acl": ["it"], "topic": "phân loại sự cố P1 P2 P3 nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-backup-04", "acl": ["it"], "topic": "sao lưu dữ liệu nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-secret-04", "acl": ["it"], "topic": "xoay vòng secret nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "it-patch-04", "acl": ["it"], "topic": "vá bảo mật máy chủ nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "ops-oncall-04", "acl": ["ops"], "topic": "lịch on-call nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "ops-sla-04", "acl": ["ops"], "topic": "SLA phản hồi Pager nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "ops-change-04", "acl": ["ops"], "topic": "cửa sổ change production nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "ops-runbook-04", "acl": ["ops"], "topic": "runbook khôi phục dịch vụ nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "ops-capacity-04", "acl": ["ops"], "topic": "ngưỡng capacity alert nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "ops-deploy-04", "acl": ["ops"], "topic": "tần suất deploy nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "legal-nda-04", "acl": ["legal"], "topic": "thời hạn NDA nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "legal-contract-04", "acl": ["legal"], "topic": "duyệt hợp đồng khung nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "legal-privacy-04", "acl": ["legal"], "topic": "lưu trữ dữ liệu cá nhân nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "legal-retain-04", "acl": ["legal"], "topic": "thời gian giữ hồ sơ nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "sec-phish-04", "acl": ["security"], "topic": "báo cáo phishing nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "sec-device-04", "acl": ["security"], "topic": "thiết bị mang về nhà nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "sec-usb-04", "acl": ["security"], "topic": "cấm USB không mã hóa nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "sec-class-04", "acl": ["security"], "topic": "phân loại tài liệu mật nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "shared-glossary-04", "acl": ["*"], "topic": "thuật ngữ nội bộ ACL nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "shared-desk-04", "acl": ["*"], "topic": "desk ticket approval nhóm 4", "versions": 5, "unit": "ngày", "base": 9}
+{"document_id": "fin-approve-05", "acl": ["finance"], "topic": "phê duyệt ngân sách thiết bị nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "fin-travel-05", "acl": ["finance"], "topic": "công tác phí và khách sạn nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "fin-vendor-05", "acl": ["finance"], "topic": "onboarding nhà cung cấp nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "fin-invoice-05", "acl": ["finance"], "topic": "chu kỳ thanh toán hóa đơn nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "fin-budget-05", "acl": ["finance"], "topic": "trần ngân sách quý nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "fin-card-05", "acl": ["finance"], "topic": "hạn mức thẻ công ty nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "fin-audit-05", "acl": ["finance"], "topic": "lưu trữ chứng từ kiểm toán nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "fin-fx-05", "acl": ["finance"], "topic": "tỷ giá thanh toán ngoại tệ nhóm 5", "versions": 5, "unit": "triệu VND", "base": 10}
+{"document_id": "hr-leave-05", "acl": ["hr"], "topic": "nghỉ phép năm nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "hr-sick-05", "acl": ["hr"], "topic": "nghỉ bệnh và giấy bác sĩ nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "hr-pay-05", "acl": ["hr"], "topic": "ngày trả lương nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "hr-bonus-05", "acl": ["hr"], "topic": "thưởng hiệu suất quý nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "hr-onboard-05", "acl": ["hr"], "topic": "onboarding nhân viên mới nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "hr-offboard-05", "acl": ["hr"], "topic": "quy trình nghỉ việc nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "hr-ot-05", "acl": ["hr"], "topic": "làm thêm giờ nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "hr-remote-05", "acl": ["hr"], "topic": "làm việc từ xa nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-access-05", "acl": ["it"], "topic": "cấp quyền production nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-mfa-05", "acl": ["it"], "topic": "bắt buộc MFA nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-vpn-05", "acl": ["it"], "topic": "truy cập VPN nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-laptop-05", "acl": ["it"], "topic": "cấp phát laptop nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-incident-05", "acl": ["it"], "topic": "phân loại sự cố P1 P2 P3 nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-backup-05", "acl": ["it"], "topic": "sao lưu dữ liệu nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-secret-05", "acl": ["it"], "topic": "xoay vòng secret nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "it-patch-05", "acl": ["it"], "topic": "vá bảo mật máy chủ nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "ops-oncall-05", "acl": ["ops"], "topic": "lịch on-call nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "ops-sla-05", "acl": ["ops"], "topic": "SLA phản hồi Pager nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "ops-change-05", "acl": ["ops"], "topic": "cửa sổ change production nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "ops-runbook-05", "acl": ["ops"], "topic": "runbook khôi phục dịch vụ nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "ops-capacity-05", "acl": ["ops"], "topic": "ngưỡng capacity alert nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "ops-deploy-05", "acl": ["ops"], "topic": "tần suất deploy nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "legal-nda-05", "acl": ["legal"], "topic": "thời hạn NDA nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "legal-contract-05", "acl": ["legal"], "topic": "duyệt hợp đồng khung nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "legal-privacy-05", "acl": ["legal"], "topic": "lưu trữ dữ liệu cá nhân nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "legal-retain-05", "acl": ["legal"], "topic": "thời gian giữ hồ sơ nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "sec-phish-05", "acl": ["security"], "topic": "báo cáo phishing nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "sec-device-05", "acl": ["security"], "topic": "thiết bị mang về nhà nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "sec-usb-05", "acl": ["security"], "topic": "cấm USB không mã hóa nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "sec-class-05", "acl": ["security"], "topic": "phân loại tài liệu mật nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "shared-glossary-05", "acl": ["*"], "topic": "thuật ngữ nội bộ ACL nhóm 5", "versions": 5, "unit": "ngày", "base": 10}
+{"document_id": "shared-desk-05", "acl": ["*"], "topic": "desk ticket approval nhóm 5", "versions": 5, "unit": "ngày", "base": 10}

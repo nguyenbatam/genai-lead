@@ -1,0 +1,20 @@
+{"id": "d01", "query": "mở phiếu tạo record ticket cho khách", "expect_outcome": "waiting_approval"}
+{"id": "d02", "query": "tạo bản ghi hỗ trợ với title onboarding", "expect_outcome": "waiting_approval"}
+{"id": "d03", "query": "create_record với title refund-request", "expect_outcome": "waiting_approval"}
+{"id": "d04", "query": "mở ticket cho sự cố thanh toán lỗi", "expect_outcome": "waiting_approval"}
+{"id": "d05", "query": "tạo record theo dõi khiếu nại VIP", "expect_outcome": "waiting_approval"}
+{"id": "d06", "query": "lập phiếu hỗ trợ đổi địa chỉ giao hàng", "expect_outcome": "waiting_approval"}
+{"id": "d07", "query": "tạo bản ghi escalation cho đơn hoàn tiền", "expect_outcome": "waiting_approval"}
+{"id": "d08", "query": "mở phiếu desk title password-reset", "expect_outcome": "waiting_approval"}
+{"id": "d09", "query": "create a support record titled billing-dispute", "expect_outcome": "waiting_approval"}
+{"id": "d10", "query": "tạo ticket nội bộ cho mất quyền SSO", "expect_outcome": "waiting_approval"}
+{"id": "d11", "query": "mở record theo dõi khiếu nại chậm giao", "expect_outcome": "waiting_approval"}
+{"id": "d12", "query": "lập phiếu hỗ trợ khách bị trừ tiền hai lần", "expect_outcome": "waiting_approval"}
+{"id": "d13", "query": "tạo bản ghi title vendor-invoice-mismatch", "expect_outcome": "waiting_approval"}
+{"id": "d14", "query": "mở phiếu desk cho yêu cầu xuất hóa đơn lại", "expect_outcome": "waiting_approval"}
+{"id": "d15", "query": "create_record title access-review-followup", "expect_outcome": "waiting_approval"}
+{"id": "d16", "query": "tạo ticket chăm sóc khách sau P1", "expect_outcome": "waiting_approval"}
+{"id": "d17", "query": "mở bản ghi hỗ trợ đổi phương thức thanh toán", "expect_outcome": "waiting_approval"}
+{"id": "d18", "query": "lập phiếu title contract-renewal-help", "expect_outcome": "waiting_approval"}
+{"id": "d19", "query": "tạo record desk cho khiếu nại chất lượng dịch vụ", "expect_outcome": "waiting_approval"}
+{"id": "d20", "query": "mở phiếu hỗ trợ hủy đăng ký dùng thử", "expect_outcome": "waiting_approval"}
